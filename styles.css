@@ -297,7 +297,7 @@ ul li a.active,ul li a:hover {
     animation: fade-up 3s;
   }
 
- .content h4{
+   .content h4{
     margin-left: 50rem;
     position: absolute;
     bottom: 0;
