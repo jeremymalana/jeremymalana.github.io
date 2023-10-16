@@ -244,6 +244,12 @@ ul li a.active,ul li a:hover {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
+
+    .content h4 {
+    text-align: center;
+    margin-top: 15rem;
+    animation: fade-up 3s;
+  }
  
   .section {
     margin-top: 50px;
