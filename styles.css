@@ -297,9 +297,11 @@ ul li a.active,ul li a:hover {
     animation: fade-up 3s;
   }
 
-    .content h4 {
-    text-align: center;
-    margin-top: 15rem;
+ .content h4{
+    margin-left: 50rem;
+    position: absolute;
+    bottom: 0;
+    animation: fade-up 3s;
   }
 
   .vertical {
@@ -613,6 +615,7 @@ form .icons a{
     .content h4 {
     text-align: center;
     margin-top: 15rem;
+    animation: fade-up 3s;
   }
 }
 
