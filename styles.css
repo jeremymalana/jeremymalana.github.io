@@ -85,6 +85,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .description {
@@ -195,7 +196,7 @@ ul li a.active,ul li a:hover {
   padding: 1rem;
   display: grid;
   gap: 4rem;
-  animation: fade-up 0.5s;
+  animation: fade-up 3s;
 }
 
 .content {
@@ -243,7 +244,7 @@ ul li a.active,ul li a:hover {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
-  
+ 
   .section {
     margin-top: 50px;
   }
@@ -297,13 +298,12 @@ ul li a.active,ul li a:hover {
     animation: fade-up 3s;
   }
 
-   .content h4{
+  .content h4{
     margin-left: 50rem;
     position: absolute;
     bottom: 0;
     animation: fade-up 3s;
   }
-
   .vertical {
     border-left: 4px dashed #191919;
     height: 420px;
@@ -375,7 +375,7 @@ ul li a.active,ul li a:hover {
       position: relative;
     }
     
-    .contents h1{
+    .contents h1 {
       margin-left: 10px;
       margin-top: 300px;
       font-family: var(--second-font);
@@ -389,7 +389,6 @@ ul li a.active,ul li a:hover {
       font-weight: 600;
       font-size: 1rem;
       animation: fade-up 3s;
-      
     }
 
     .image {
@@ -416,6 +415,7 @@ ul li a.active,ul li a:hover {
       animation-name: slidein-horizontal;
     }
 
+    
     .container {
       display: flex;
       flex-direction: column;
@@ -451,6 +451,7 @@ ul li a.active,ul li a:hover {
       animation: slide-in-left 3s ease-in-out;
       filter: drop-shadow(5px 5px 10px #191919);
     }
+    
 }
 
 @keyframes slide-in-left {
@@ -469,6 +470,8 @@ ul li a.active,ul li a:hover {
     transform: translateX(0);
   }
 }
+
+
 
 form{
   background: #E9E2DE;
@@ -612,15 +615,12 @@ form .icons a{
     width: 100%;
   }
 
-    .content h4 {
+  .content h4 {
     text-align: center;
     margin-top: 15rem;
     animation: fade-up 3s;
   }
 }
-
-
-
 
 
 
