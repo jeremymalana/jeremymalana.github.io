@@ -318,39 +318,6 @@ ul li a.active,ul li a:hover {
     animation-name: slidein-2;
   }
 
-  .con-2 h1{
-    font-family: var(--second-font);
-    margin-top: 20rem;
-    margin-left: 20rem;
-  }
-
-  .con-2 h3 {
-    margin-left: 20rem;
-    margin-top: 1rem;
-    font-family: var(--body-font);
-    animation: fade-up 3s;
-  }
-
-
-  .social-container {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    left: 19rem;
-  }
-
-
-  .social-container button {
-    padding: 15px;
-    font-size: 2rem;
-    color: var(--text-dark);
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    animation: fade-up 3s;
-  }
-
   .container {
     display: flex;
     flex-direction: row;
@@ -440,39 +407,6 @@ ul li a.active,ul li a:hover {
       margin-left: 45px;
       animation-duration: 3s;
       animation-name: slidein-horizontal;
-    }
-
-    .con-2 {
-    text-align: center;
-    }
-
-    .con-2 h1{
-      margin-top: 17rem;
-      font-family: var(--second-font);
-      animation: fade-up 3s;
-    }
-
-    .con-2 h3 {
-      font-family: var(--body-font);
-      animation: fade-up 3s;
-    }
-
-    .social-container {
-      left: 7rem;
-      position: absolute;
-      display: flex;
-      flex-direction: row;
-    }
-
-    .social-container button {
-      padding: 15px;
-      font-size: 1.5rem;
-      color: var(--text-dark);
-      background: none;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      animation: fade-up 3s;
     }
 
     .container {
