@@ -604,6 +604,11 @@ form .icons a{
     margin-bottom: 10px;
     width: 100%;
   }
+
+    .content h4 {
+    text-align: center;
+    margin-top: 15rem;
+  }
 }
 
 
