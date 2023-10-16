@@ -297,6 +297,11 @@ ul li a.active,ul li a:hover {
     animation: fade-up 3s;
   }
 
+    .content h4 {
+    text-align: center;
+    margin-top: 15rem;
+  }
+
   .vertical {
     border-left: 4px dashed #191919;
     height: 420px;
