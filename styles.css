@@ -301,6 +301,21 @@ ul li a.active,ul li a:hover {
     animation: fade-up 3s;
   }
 
+  .content h4 {
+    margin-top: 20rem;
+    animation: fade-up 3s;
+  }
+  
+  .made h4{
+    margin-left: 5rem;
+    margin-top: 55rem;
+  }
+
+  .made {
+    position: fixed;
+    margin-left: 45rem;
+  }
+
   .vertical {
     border-left: 4px dashed #191919;
     height: 420px;
@@ -639,3 +654,6 @@ form .icons a{
   }
 
 }
+
+
+
