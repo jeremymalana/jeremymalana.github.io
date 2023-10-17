@@ -227,7 +227,7 @@ ul li a.active,ul li a:hover {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     nav .checkbox {
     display: block;
   }
@@ -313,6 +313,7 @@ ul li a.active,ul li a:hover {
   .made {
     position: fixed;
     margin-left: 45rem;
+    
   }
 
   .vertical {
@@ -381,8 +382,8 @@ ul li a.active,ul li a:hover {
 /*--END-OF-RESPONSIVE-FOR-1024-----*/
 
 
-/*--START-OF-RESPONSIVE-FOR-480-----*/
-@media (max-width: 767px){
+/*--START-OF-RESPONSIVE-FOR-720-----*/
+@media (max-width: 480px){
       nav .checkbox {
       display: block;
       animation: fade-down 3s;
@@ -414,8 +415,8 @@ ul li a.active,ul li a:hover {
 
     .image {
       position: absolute;
-      top: 110px;
-      left: 42%;
+      top: 150px;
+      left: 35%;
       transform: translateX(-50%);
       margin-top: 0;
       filter: drop-shadow(5px 5px 10px #191919);
@@ -429,9 +430,9 @@ ul li a.active,ul li a:hover {
 
     .horizontal {
       border-bottom: 3px dashed #191919;
-      margin-top: -300px;
+      margin-top: -400px;
       max-width: 80%;
-      margin-left: 70px;
+      margin-left: 50px;
       animation-duration: 3s;
       animation-name: slidein-horizontal;
     }
@@ -471,7 +472,7 @@ ul li a.active,ul li a:hover {
       filter: drop-shadow(5px 5px 10px #191919);
     }
 }
-/*--END-OF-RESPONSIVE-FOR-480-----*/
+/*--END-OF-RESPONSIVE-FOR-720-----*/
 
 
 
@@ -620,7 +621,7 @@ form .icons a{
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 480px){
   form .half{
     flex-direction: column;
   }
@@ -643,9 +644,8 @@ form .icons a{
   }
 
   .made h4{
-    margin-left: 12rem;
+    margin-left: 5rem;
     margin-bottom: -14rem;
-
   }
 
   .made {
@@ -653,6 +653,5 @@ form .icons a{
   }
 
 }
-
 
 
