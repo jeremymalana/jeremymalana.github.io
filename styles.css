@@ -227,7 +227,7 @@ ul li a.active,ul li a:hover {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     nav .checkbox {
     display: block;
   }
@@ -383,7 +383,7 @@ ul li a.active,ul li a:hover {
 
 
 /*--START-OF-RESPONSIVE-FOR-720-----*/
-@media (max-width: 480px){
+@media (max-width: 400px){
       nav .checkbox {
       display: block;
       animation: fade-down 3s;
@@ -621,7 +621,7 @@ form .icons a{
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 400px){
   form .half{
     flex-direction: column;
   }
