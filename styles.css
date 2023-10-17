@@ -49,7 +49,7 @@
     margin-right: 80%;
   }
   to {
-    margin-left: 11.5%;
+    margin-left: 9.4%;
   }
 }
 
@@ -227,10 +227,10 @@ ul li a.active,ul li a:hover {
 }
 
 
-@media screen and (max-width: 950px) {
-  nav .checkbox {
+@media screen and (max-width: 480px) {
+    nav .checkbox {
     display: block;
-    animation: fade-down 2s;
+    
   }
 
   .logo a {
@@ -245,15 +245,10 @@ ul li a.active,ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
-    .content h4 {
-    text-align: center;
-    margin-top: 15rem;
-    animation: fade-up 3s;
-  }
- 
   .section {
     margin-top: 50px;
   }
+
   ul {
     position: absolute;
     width: 100%;
@@ -275,6 +270,8 @@ ul li a.active,ul li a:hover {
   }
 }
 
+
+/*--START-OF-RESPONSIVE-FOR-1024-----*/
 
 @media screen and (min-width: 1024px){
   .subtitle {
@@ -304,12 +301,6 @@ ul li a.active,ul li a:hover {
     animation: fade-up 3s;
   }
 
-  .content h4{
-    margin-left: 50rem;
-    position: absolute;
-    bottom: 0;
-    animation: fade-up 3s;
-  }
   .vertical {
     border-left: 4px dashed #191919;
     height: 420px;
@@ -373,8 +364,18 @@ ul li a.active,ul li a:hover {
 
 }
 
-@media screen and (max-width: 950px){
-    .contents{
+/*--END-OF-RESPONSIVE-FOR-1024-----*/
+
+
+/*--START-OF-RESPONSIVE-FOR-480-----*/
+@media screen and (max-width: 480px){
+      nav .checkbox {
+      display: block;
+      animation: fade-down 3s;
+      margin-right: 1.5rem;
+    }
+
+    .contents {
       grid-template-columns: repeat(1, 1fr);
       text-align: center;
       padding: 10rem 1rem 5rem 1rem;
@@ -383,7 +384,7 @@ ul li a.active,ul li a:hover {
     
     .contents h1 {
       margin-left: 10px;
-      margin-top: 300px;
+      margin-top: 330px;
       font-family: var(--second-font);
       animation: fade-up 3s;
     }
@@ -399,8 +400,8 @@ ul li a.active,ul li a:hover {
 
     .image {
       position: absolute;
-      top: 120px;
-      left: 30%;
+      top: 150px;
+      left: 35%;
       transform: translateX(-50%);
       margin-top: 0;
       filter: drop-shadow(5px 5px 10px #191919);
@@ -409,7 +410,7 @@ ul li a.active,ul li a:hover {
     }
 
     .image img {
-      max-width: 160%;
+      max-width: 150%;
     }
 
     .horizontal {
@@ -421,13 +422,11 @@ ul li a.active,ul li a:hover {
       animation-name: slidein-horizontal;
     }
 
-    
     .container {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      
     }
 
     .container img {
@@ -439,26 +438,28 @@ ul li a.active,ul li a:hover {
     }
 
     .img1 img{
-      animation: slide-in-right 3s ease-in-out;
+      animation: slide-in-right 1s ease-in-out;
       filter: drop-shadow(5px 5px 10px #191919);
     }
 
     .img2 img{
-      animation: slide-in-left 3s ease-in-out;
+      animation: slide-in-left 1s ease-in-out;
       filter: drop-shadow(5px 5px 10px #191919);
     }
 
     .img3 img{
-      animation: slide-in-right 3s ease-in-out;
+      animation: slide-in-right 1s ease-in-out;
       filter: drop-shadow(5px 5px 10px #191919);
     }
 
     .img4 img{
-      animation: slide-in-left 3s ease-in-out;
+      animation: slide-in-left 1s ease-in-out;
       filter: drop-shadow(5px 5px 10px #191919);
     }
-    
 }
+/*--END-OF-RESPONSIVE-FOR-480-----*/
+
+
 
 @keyframes slide-in-left {
   0% {
@@ -623,10 +624,18 @@ form .icons a{
 
   .content h4 {
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 19rem;
     animation: fade-up 3s;
   }
+
+  .made h4{
+    margin-left: 5rem;
+    margin-bottom: -14rem;
+
+  }
+
+  .made {
+    position: fixed;
+  }
+
 }
-
-
-
